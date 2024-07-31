@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'genshin-font', sans-serif;
+  font-size: 16px;
+}
+
+body {
+  height: calc(100vh - 56px - 56px);
+  background-color: #f8f3ea;
+}
+
+.card {
+  min-width: 200px;
+}
+
+.char-img {
+  height: 352px;
+  overflow: hidden;
+}
+
+.weap-img {
+  height: 220px;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+}

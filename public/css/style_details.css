@@ -1,0 +1,44 @@
+body {
+  height: 100vh;
+  background-image: url('../assets/img/char-d-bg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  margin-right: 20px;
+  font-size: 30px;
+  font-family: georgia;
+  line-height: 60px;
+  width: auto;
+}
+
+.card {
+  background-color: #ece5d9 !important;
+}
+
+.card-header-tabs {
+  display: block;
+  margin-top: -15px;
+}
+
+.active {
+  color: rgb(248, 249, 250) !important;
+}
+
+#attr {
+  max-width: 400px;
+}
+
+#weapon {
+  max-width: 400px;
+}
+
+#profile {
+  max-width: 450px;
+}

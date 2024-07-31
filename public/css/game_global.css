@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'genshin-font';
+  src: url('../fonts/zh-cn.ttf') format('truetype');
+}
+
+*,
+body,
+button:hover,
+button:not(:disabled),
+input,
+label,
+a:hover {
+  font-family: 'genshin-font', sans-serif;
+  user-select: none !important;
+  -moz-user-select: -moz-none !important;
+  -khtml-user-select: none !important;
+  -webkit-user-select: none !important;
+  -ms-user-select: none !important;
+  -webkit-user-drag: none !important;
+  cursor: url('../assets/img/cursor.png'), auto !important;
+}

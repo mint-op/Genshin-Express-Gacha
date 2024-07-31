@@ -1,0 +1,22 @@
+{
+  "name": "bed-ca2-godlykira",
+  "version": "1.0.0",
+  "description": "You are required to build your folder structures for your project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init_tables": "node src/configs/createSchema.js && node src/configs/initTables.js && node src/assets/addData.js",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Min Thit Khine",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mysql2": "^3.7.0",
+    "nodemon": "^3.0.2"
+  }
+}

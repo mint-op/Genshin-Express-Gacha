@@ -1,0 +1,128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* font-family: 'genshin-font', sans-serif; */
+  font-size: 16px;
+}
+
+body {
+  background-image: url('../assets/img/gacha-banner-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* main {
+  height: calc(100vh - 56px - 56px);
+} */
+
+.card-img {
+  max-height: 600px;
+}
+
+button {
+  outline: none !important;
+}
+
+.primogem-bar {
+  text-align: right;
+  display: flex;
+  justify-self: flex-end;
+  align-items: center;
+}
+
+.carousel-control-prev {
+  margin-left: -150px; /* Adjust this value to move the buttons further away */
+}
+
+.carousel-control-next {
+  margin-right: -150px;
+}
+
+button.primogem {
+  display: inline-block;
+  height: 25px;
+  overflow: hidden;
+  background-color: #0000004d;
+  border-radius: 50px;
+  color: #fff;
+  vertical-align: middle;
+  text-align: center;
+  position: relative;
+  margin: 0 10px 0 0;
+  padding: 0 1rem 0 1.85rem;
+  border: 0.7px solid #656565;
+}
+
+.meteor-wraper {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.video {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+}
+
+.video_element {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 105%;
+  height: 105%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  z-index: 10;
+}
+
+.result-layouts {
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+.layouts {
+  position: relative;
+  width: 100vw;
+  height: 100%;
+}
+
+.single {
+  background-image: url('../assets/img/splash-background.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  /* display: none; */
+  min-height: 100vh;
+}
+
+.layouts .img-container {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.layouts .img-container img {
+  max-width: 110%;
+  max-height: 110%;
+}
+
+.w-100-custom {
+  width: 80% !important;
+  bottom: 40%;
+}
